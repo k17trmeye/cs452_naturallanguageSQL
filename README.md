@@ -1,1 +1,1 @@
-# cs452_naturallanguageSQL
+# cs452_natural_languageSQL
