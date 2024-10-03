@@ -5,7 +5,7 @@ The database that I decided to implement was a fairly simple database with resta
 
 <img src="schema.png">
 
-# Successful SQL Query
+## Successful SQL Query
 
 
-# Unsuccesful SQL Query
+## Unsuccesful SQL Query
