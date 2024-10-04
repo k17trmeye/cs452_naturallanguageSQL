@@ -1,0 +1,53 @@
+restaurants = [
+    {'restaurantid': 1, 'name': 'McDonalds', 'city': 'San Diego', 'state': 'Colorado', 'phone': '456-555-1233'},
+    {'restaurantid': 2, 'name': 'Burger King', 'city': 'New York', 'state': 'North Dakota', 'phone': '354-555-4522'},
+    {'restaurantid': 3, 'name': 'Taco Bell', 'city': 'Provo', 'state': 'Mississippi', 'phone': '777-555-6785'},
+    {'restaurantid': 4, 'name': 'Canes', 'city': 'Memphis', 'state': 'Hawaii', 'phone': '765-555-1353'},
+    {'restaurantid': 5, 'name': 'Swig', 'city': 'Gotham', 'state': 'Texas', 'phone': '809-555-9943'},
+]
+
+customers = [
+    {'customerid': 1, 'name': 'Ronald', 'city': 'LA', 'state': 'Colorado', 'phone': '456-422-3452'},
+    {'customerid': 2, 'name': 'George', 'city': 'Queens', 'state': 'North Dakota', 'phone': '354-425-5768'},
+    {'customerid': 3, 'name': 'Juan', 'city': 'Orem', 'state': 'Mississippi', 'phone': '777-764-1304'},
+    {'customerid': 4, 'name': 'Steph', 'city': 'Honolulu', 'state': 'Hawaii', 'phone': '765-152-5340'},
+    {'customerid': 5, 'name': 'Jackie', 'city': 'Metrocity', 'state': 'Texas', 'phone': '809-978-6797'},
+    {'customerid': 6, 'name': 'Garrett', 'city': 'LA', 'state': 'Colorado', 'phone': '456-422-3452'},
+    {'customerid': 7, 'name': 'Aaron', 'city': 'Queens', 'state': 'North Dakota', 'phone': '354-425-5768'},
+    {'customerid': 8, 'name': 'Kona', 'city': 'Orem', 'state': 'Mississippi', 'phone': '777-764-1304'},
+    {'customerid': 9, 'name': 'Trace', 'city': 'Honolulu', 'state': 'Hawaii', 'phone': '765-152-5340'},
+    {'customerid': 10, 'name': 'Matthew', 'city': 'Metrocity', 'state': 'Texas', 'phone': '809-978-6797'},
+    {'customerid': 11, 'name': 'Mary', 'city': 'LA', 'state': 'Colorado', 'phone': '456-422-3452'},
+    {'customerid': 12, 'name': 'Sherwin', 'city': 'Queens', 'state': 'North Dakota', 'phone': '354-425-5768'},
+    {'customerid': 13, 'name': 'Jakob', 'city': 'Orem', 'state': 'Mississippi', 'phone': '777-764-1304'},
+    {'customerid': 14, 'name': 'Charles', 'city': 'Honolulu', 'state': 'Hawaii', 'phone': '765-152-5340'},
+    {'customerid': 15, 'name': 'Tony', 'city': 'Metrocity', 'state': 'Texas', 'phone': '809-978-6797'},
+    {'customerid': 16, 'name': 'Brad', 'city': 'LA', 'state': 'Colorado', 'phone': '456-422-3452'},
+    {'customerid': 17, 'name': 'Bruce', 'city': 'Queens', 'state': 'North Dakota', 'phone': '354-425-5768'},
+    {'customerid': 18, 'name': 'Karen', 'city': 'Orem', 'state': 'Mississippi', 'phone': '777-764-1304'},
+    {'customerid': 19, 'name': 'Orlando', 'city': 'Honolulu', 'state': 'Hawaii', 'phone': '765-152-5340'},
+    {'customerid': 20, 'name': 'Caitlin', 'city': 'Metrocity', 'state': 'Texas', 'phone': '809-978-6797'},
+]
+
+orders = [
+    {'orderid': 1, 'customerid': 1, 'restaurantid': 5},
+    {'orderid': 2, 'customerid': 2, 'restaurantid': 5},
+    {'orderid': 3, 'customerid': 3, 'restaurantid': 5},
+    {'orderid': 4, 'customerid': 4, 'restaurantid': 3},
+    {'orderid': 5, 'customerid': 5, 'restaurantid': 2},
+    {'orderid': 6, 'customerid': 6, 'restaurantid': 4},
+    {'orderid': 7, 'customerid': 7, 'restaurantid': 1},
+    {'orderid': 8, 'customerid': 8, 'restaurantid': 3},
+    {'orderid': 9, 'customerid': 9, 'restaurantid': 3},
+    {'orderid': 10, 'customerid': 10, 'restaurantid': 3},
+    {'orderid': 11, 'customerid': 11, 'restaurantid': 4},
+    {'orderid': 12, 'customerid': 12, 'restaurantid': 5},
+    {'orderid': 13, 'customerid': 13, 'restaurantid': 5},
+    {'orderid': 14, 'customerid': 14, 'restaurantid': 5},
+    {'orderid': 15, 'customerid': 15, 'restaurantid': 5},
+    {'orderid': 16, 'customerid': 16, 'restaurantid': 1},
+    {'orderid': 17, 'customerid': 17, 'restaurantid': 1},
+    {'orderid': 18, 'customerid': 18, 'restaurantid': 2},
+    {'orderid': 19, 'customerid': 19, 'restaurantid': 3},
+    {'orderid': 20, 'customerid': 20, 'restaurantid': 1}
+]
