@@ -24,7 +24,7 @@ LIMIT 1;
 **Question**: Give me a list of cities that have more orders than McDonalds
 
 **GPT SQL Response**:
-```python
+```sql
 SELECT o.city
 FROM orders o
 JOIN restaurants r ON o.restaurantid = r.restaurantid
@@ -40,7 +40,7 @@ HAVING COUNT(o.orderid) > (
 This query didn't even give me a response as there was an error in the request. Despite being given the layout of the tables and all the attributes within, the query requests the city name from the orders table even though that is not an included attribute.
 
 The response that I received was an error response giving a suggestion as far as correcting the query:
-```sql
+```python
   LINE 1: SELECT o.city
                ^
   HINT:  Perhaps you meant to reference the column "r.city".
