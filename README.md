@@ -24,7 +24,7 @@ LIMIT 1;
 **Question**: Give me a list of cities that have more orders than McDonalds
 
 **GPT SQL Response**:
-```sql
+```python
 SELECT o.city
 FROM orders o
 JOIN restaurants r ON o.restaurantid = r.restaurantid
